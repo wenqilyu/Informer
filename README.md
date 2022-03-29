@@ -56,6 +56,7 @@
 
 ## Critical Thinking
 
+In addition to the ProbSparse self-attnetion proposed by the author, the author can also try to apply Logsparse self-attnetion to the transformer to compare the performance changes.
 
 
 
