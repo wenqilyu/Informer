@@ -29,7 +29,7 @@
    The dynamic decoding of vanilla Transformer makes the inference spped as slow as RNN-based model.
 
 
-![This is an image](img/img1.png)
+![This is an image](img/img3.png)
 
 
 ### Improve in Informer（solve the challenges metioned before）
