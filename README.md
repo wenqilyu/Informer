@@ -14,25 +14,27 @@
 
 ### The challenges when we use transfromers in long sequence prediction
 
-1. The quadratic computation of self-attention.
+1. The quadratic computation of self-attention.(Complexity)
 
-2. the memory bottle nect in stacking layers.
+   The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage per layer to be O(L^2)
 
-3. the spped plunge in prediction long outputs.
+
+2. the memory bottle nect in stacking layers.(Long Iutput)
+
+   The stack of J encoder/decoder layer makes total memory usage to be O(j·L^2), which limits the model scalability on receiving long sequence inputs.
+   
+
+3. the spped plunge in prediction long outputs.(Long Output)
+
+   The dynamic decoding of vanilla Transformer makes the inference spped as slow as RNN-based model.
 
 ### Improve in Informer（solve the challenges metioned before）
 
-1. Self-attention mechanism(Complexity)
+1. Self-attention mechanism
 
--- The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage per layer to be O(L^2)
+2. Self-attention Distilling Operation
 
-2. Self-attention Distilling Operation(Long Iutput)
-
--- The stack of J encoder/decoder layer makes total memory usage to be O(j·L^2), which limits the model scalability on receiving long sequence inputs.
-
-3. Generative-style Decoder(Long Output)
-
--- The dynamic decoding of vanilla Transformer makes the inference spped as slow as RNN-based model.
+3. Generative-style Decoder
 
 ## Discussion
 1. Why we use transformers in LSTF?
