@@ -57,9 +57,11 @@
 ## Critical Thinking
 
 
+
+
 ## Discussion
 1. Why we use transformers in LSTF?
-2. Why the speed plunge in prediction long outputs
+2. What is differences of ProbSparse self-attnetion with self-attention?
 3. What is the next step for informer?
 
 
