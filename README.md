@@ -65,8 +65,11 @@ In addition to the ProbSparse self-attnetion proposed by the author, the author 
 
 ## Discussion
 1. Why we use transformers in LSTF?
-2. What is differences of ProbSparse self-attnetion with self-attention?
-3. What is the next step for informer?
+
+![This is an image](img/img11.png)
+
+3. What is differences of ProbSparse self-attnetion with self-attention?
+4. What is the next step for informer?
 
 
 
