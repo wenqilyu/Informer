@@ -54,12 +54,13 @@
    
   
 
-
+## Critical Thinking
 
 
 ## Discussion
 1. Why we use transformers in LSTF?
-2. Why MSE score to increase rapidly when the sequeences increase?
+2. What is the next step for informer?
+3. 
 
 
 ## Resource Links
