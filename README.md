@@ -24,7 +24,7 @@
    The stack of J encoder/decoder layer makes total memory usage to be O(j·L^2), which limits the model scalability on receiving long sequence inputs.
    
 
-3. the spped plunge in prediction long outputs.(Long Output)
+3. the speed plunge in prediction long outputs.(Long Output)
 
    The dynamic decoding of vanilla Transformer makes the inference spped as slow as RNN-based model.
 
@@ -59,8 +59,9 @@
 
 ## Discussion
 1. Why we use transformers in LSTF?
-2. What is the next step for informer?
-3. 
+2. Why the speed plunge in prediction long outputs
+3. What is the next step for informer?
+
 
 
 ## Resource Links
