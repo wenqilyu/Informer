@@ -34,7 +34,7 @@
 
 ### Improve in Informer（solve the challenges metioned before）
 
-1. Self-attention mechanism
+1. ProbSparse Self-attention mechanism
 
 ![This is an image](img/img4.png)
 
