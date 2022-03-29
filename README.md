@@ -19,7 +19,7 @@
    The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage per layer to be O(L^2)
 
 
-2. the memory bottle nect in stacking layers.(Long Iutput)
+2. the memory bottleneck in stacking layers.(Long Iutput)
 
    The stack of J encoder/decoder layer makes total memory usage to be O(j·L^2), which limits the model scalability on receiving long sequence inputs.
    
@@ -35,6 +35,10 @@
 ### Improve in Informer（solve the challenges metioned before）
 
 1. Self-attention mechanism
+
+![This is an image](img/img4.png)
+
+![This is an image](img/img5.png)
 
 2. Self-attention Distilling Operation
 
