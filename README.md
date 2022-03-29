@@ -64,7 +64,7 @@ In addition to the ProbSparse self-attnetion proposed by the author, the author 
 
 
 ## Discussion
-1. Why we use transformers in LSTF?
+1. Why we use transformers?
 
 ![This is an image](img/img11.png)
 
