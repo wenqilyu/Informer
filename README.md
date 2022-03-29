@@ -18,6 +18,7 @@
 
    The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage per layer to be O(L^2)
 
+** discussion 1： Why we use transformers/ Why the author choose to improve the transformers?**
 
 2. the memory bottleneck in stacking layers.(Long Iutput)
 
@@ -39,6 +40,8 @@
 ![This is an image](img/img4.png)
 
 ![This is an image](img/img5.png)
+
+** discussion 2: What are advantages and disadvantages of Sparse self-attnetion**
 
 2. Self-attention Distilling Operation
 
@@ -68,7 +71,7 @@ In addition to the ProbSparse self-attnetion proposed by the author, the author 
 
 ![This is an image](img/img11.png)
 
-3. What are advantages and disadvantages  of Sparse self-attnetion with self-attention?
+3. What are advantages and disadvantages of Sparse self-attnetion?
 
    Advantages: Sparse attention reduces computation time and the memory requirements of the attention mechanism by computing a limited selection of similarity scores from a sequence rather than all possible pairs, resulting in a sparse matrix rather than a full matrix. It could be fast and more space-efficient.
 
