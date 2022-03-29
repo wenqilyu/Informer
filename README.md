@@ -52,7 +52,10 @@
    
    3)For example, if we could like to predict 480 pionts(5-day predict in the ETT dataset), we will take the known 5 days before this time sequence as "start-token" and feed the generative-style inference decode with them.
    
-  
+   
+### Experiments 
+
+![This is an image](img/img10.png)
 
 ## Critical Thinking
 
