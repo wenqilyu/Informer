@@ -42,7 +42,11 @@
 
 2. Self-attention Distilling Operation
 
+![This is an image](img/img6.png)
+
 3. Generative-style Decoder
+
+![This is an image](img/img3.png)
 
 ## Discussion
 1. Why we use transformers in LSTF?
