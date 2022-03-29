@@ -24,7 +24,7 @@
 
 1. Self-attention mechanism(Complexity)
 
--- The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage pr layer to be O(L^2)
+-- The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage per layer to be O(L^2)
 
 2. Self-attention Distilling Operation(Long Iutput)
 
