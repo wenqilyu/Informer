@@ -18,7 +18,7 @@
 
    The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage per layer to be O(L^2)
 
-** discussion 1： Why we use transformers/ Why the author choose to improve the transformers?**
+* discussion 1： Why we use transformers/ Why the author choose to improve the transformers?*
 
 2. the memory bottleneck in stacking layers.(Long Iutput)
 
