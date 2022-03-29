@@ -16,9 +16,17 @@
 
 3. the spped plunge in prediction long outputs.
 
+## Improve in Informer（solve the challenges metioned before）
+
+### Self-attention mechanism
+
+### Self-attention Distilling Operation
+
+### Generative-style Decoder
 
 ## Discussion
 1. Why we use transformers in LSTF.
+2. 
 
 
 ## Resource Links
