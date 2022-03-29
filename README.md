@@ -68,8 +68,13 @@ In addition to the ProbSparse self-attnetion proposed by the author, the author 
 
 ![This is an image](img/img11.png)
 
-3. What is differences of ProbSparse self-attnetion with self-attention?
-4. What is the next step for informer?
+3. What are advantages and disadvantages  of Sparse self-attnetion with self-attention?
+
+Advantages: Sparse attention reduces computation time and the memory requirements of the attention mechanism by computing a limited selection of similarity scores from a sequence rather than all possible pairs, resulting in a sparse matrix rather than a full matrix. It could be fast and more space-efficient.
+
+Disadvantages:  (1) They require efficient sparse-matrix multiplication operations, which are not available on all accelerators; (2) they usually do not provide rigorous theoretical guarantees for their representation power; (3) they are optimized primarily for Transformer models and generative pre-training; and (4) they usually stack more attention layers to compensate for sparse representations, making them difficult to use with other pre-trained models, thus requiring retraining and significant energy consumption. 
+
+5. What is the next step for informer?
 
 
 
