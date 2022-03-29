@@ -9,6 +9,8 @@
 
 ### Problems in long sequence prediction
 2. As the length of the data sequence increases, the inference speed of LSTM decreases repaidly and result in the inability to predict long sequences with limited computing power and time successfully. Meanwhile, the continuous accumulation of error causes the MSE score to increase rapidly, making the rusult unusable.
+![This is an image](img/img2.png)
+
 
 ### The challenges when we use transfromers in long sequence prediction
 
@@ -27,8 +29,8 @@
 3. Generative-style Decoder
 
 ## Discussion
-1. Why we use transformers in LSTF.
-2. 
+1. Why we use transformers in LSTF?
+2. Why MSE score to increase rapidly when the sequeences increase?
 
 
 ## Resource Links
