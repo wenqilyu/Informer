@@ -46,7 +46,16 @@
 
 3. Generative-style Decoder
 
+   Start token is an efficient technique in NLP "dynamic decoding", especially for per-training model, and we extend it into a generative way.
+   
+   Insted of choosing a specific flag as the token, we sample a "shorter" long sequence in input sequence, which is an earlier slice before output sequence.
+   
+  
+
+
 ![This is an image](img/img3.png)
+
+
 
 ## Discussion
 1. Why we use transformers in LSTF?
