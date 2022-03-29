@@ -46,14 +46,14 @@
 
 3. Generative-style Decoder
 
-   Start token is an efficient technique in NLP "dynamic decoding", especially for per-training model, and we extend it into a generative way.
+   1)Start token is an efficient technique in NLP "dynamic decoding", especially for per-training model, and we extend it into a generative way.
    
-   Insted of choosing a specific flag as the token, we sample a "shorter" long sequence in input sequence, which is an earlier slice before output sequence.
+   2)Insted of choosing a specific flag as the token, we sample a "shorter" long sequence in input sequence, which is an earlier slice before output sequence.
+   
+   3)For example, if we could like to predict 480 pionts(5-day predict in the ETT dataset), we will take the known 5 days before this time sequence as "start-token" and feed the generative-style inference decode with them.
    
   
 
-
-![This is an image](img/img3.png)
 
 
 
