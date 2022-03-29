@@ -22,11 +22,16 @@
 
 ### Improve in Informer（solve the challenges metioned before）
 
-1. Self-attention mechanism
+1. Self-attention mechanism(Complexity)
+The atom operation of self-attention mechanism, namely conoimcal dot-product, causes the time complexity and memory usage pr layer to be O(L^2)
 
-2. Self-attention Distilling Operation
+2. Self-attention Distilling Operation(Long Iutput)
 
-3. Generative-style Decoder
+The stack of J encoder/decoder layer makes total memory usage to be O(j·L^2), which limits the model scalability on receiving long sequence inputs.
+
+3. Generative-style Decoder(Long Output)
+
+The dynamic decoding of vanilla Transformer makes the inference spped as slow as RNN-based model.
 
 ## Discussion
 1. Why we use transformers in LSTF?
