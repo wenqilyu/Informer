@@ -80,8 +80,8 @@ In addition to the ProbSparse self-attnetion proposed by the author, the author 
 
 ## Resource Links
 
-https://github.com/zhouhaoyi/Informer2020
-https://ai.googleblog.com/2020/10/rethinking-attention-with-performers.html
+1. https://github.com/zhouhaoyi/Informer2020
+2. https://ai.googleblog.com/2020/10/rethinking-attention-with-performers.html
 
 
 ## Video Recording
